@@ -1,0 +1,1098 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header div {
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+header div img {
+    height: auto;
+    width: 150px;
+}
+
+button {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+header div button {
+    border: none;
+    background-color: #ff8800;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: raleway;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+section.hero {
+    width: 100vw;
+    height: 70vh;
+    background: url(assets/jan-lifestyle-hero-v2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+section.hero div.left {
+    color: white;
+    width: 100%;
+}
+
+section.hero div.left h2 {
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section.hero div.left p {
+    text-align: left;
+    font-size: 22px;
+    margin: 20px 0px;
+}
+
+section.hero div.right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.hero div.right div.price-card {
+    background-color: white;
+}
+
+div.price-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    width: 180px;
+    border-radius: 5px;
+
+}
+
+div.price-card div.top h4 {
+    font-size: 18px;
+    text-align: center;
+}
+
+div.price-card div.top h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+div.price-card div.top p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+div.price-card div.top span {
+    font-size: 16px;
+    position: relative;
+    top: -13px
+}
+
+div.price-card div.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.price-card div.bottom button {
+    border: none;
+    background-color: #ff8800;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: raleway;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
+section.partners {
+    width: 100vw;
+    height: auto;
+    padding: 20px 150px;
+}
+
+section.partners h4 {
+    text-align: center;
+    color: #333333;
+}
+
+section.partners div.partner-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+section.partners img {
+    width: auto;
+    height: 50px;
+    margin: 0px 20px;
+}
+
+section.vpn {
+    width: 100vw;
+    height: auto;
+    padding: 0px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.vpn div {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+section.vpn img {
+    width: 200px;
+    height: auto;
+}
+
+section.vpn h2 {
+    color: #333333;
+    font-size: 32px;
+}
+
+section.two-column {
+    margin: 100px 0px;
+    padding: 0px 0px 0px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    width: 100vw;
+}
+
+section.two-column div.left {
+    width: 45%;
+    margin-right: 100px;
+}
+
+section.two-column div.left p {
+    text-align: left;
+}
+
+section.two-column div.right {
+    width: 40%;
+}
+
+section.two-column div.right img {
+    width: 400px;
+    height: 400px;
+}
+
+section.two-column div.left h2 {
+    font-size: 32px;
+    color: #333333;
+}
+
+section.two-column div.left p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    margin: 20px 0px;
+}
+
+section.two-column div.left button {
+    background-color: #ff8800;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 0.6rem 1.5rem;
+}
+
+
+section.two-column2 {
+    margin: 100px 0px;
+    /* padding: 0px 150px 0px 0px; */
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    width: 100vw;
+}
+
+section.two-column2 div.right {
+    width: 45%;
+    margin-left: 150px;
+}
+
+section.two-column2 div.right p {
+    text-align: left;
+}
+
+section.two-column2 div.left {
+    width: 50%;
+    min-height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    background: url(assets/ipvanish-lifestyle-7-1.jpg);
+    background-size: cover;
+}
+
+section.two-column2 div.right h2 {
+    font-size: 32px;
+    color: #333333;
+}
+
+section.two-column2 div.right p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    margin: 20px 0px;
+}
+
+section.two-column2 div.right button {
+    background-color: #ff8800;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 0.6rem 1.5rem;
+}
+
+section.two-column2 div.left span {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: #70BB44;
+    position: absolute;
+    left: -50px;
+    z-index: -1;
+    top: 5px;
+}
+
+section.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+
+    padding: 50px 150px;
+}
+
+section.features div.featurerow {
+    display: flex;
+}
+
+div.featurerow div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+}
+
+div.featurerow h3,
+p {
+    text-align: center;
+    margin: 5px;
+}
+
+div.review-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+section.customer {
+    width: 100vw;
+    padding: 10px 150px;
+}
+
+section.customer h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0px;
+}
+
+section.customer p.content {
+    margin: 20px 0px;
+}
+
+div.reviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle {
+    margin: 0px 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+div.review {
+    box-shadow: 1px 1px 8px #11304b29;
+    border-radius: 12px;
+    padding: 20px;
+    width: 33.33%;
+}
+
+div.review div.star {
+    display: flex;
+}
+
+div.review p {
+    text-align: left;
+    left: -100px;
+}
+
+div.review img {
+    width: 120px;
+    height: 25px;
+}
+
+/* div.review-section div.review-wrap{
+    display: flex;
+}
+div.review-section div.review-wrap p{
+    text-align: left;
+}
+div.review-section div.review-wrap h5{
+    text-align: left;
+    margin-top: 30px;
+}
+.review-block {
+    width: 33%;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 1px 1px 8px #11304b29;
+    padding: 20px;
+}
+.review-block .review-star {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.review-block .review-star svg {
+    width: 35%;
+}
+.review-block .review-star svg path.tp-star__canvas {
+    fill: #00B67A !important;
+} */
+
+
+section.two-column3 {
+    margin: 100px 0px;
+    /* padding: 0px 0px 0px 150px; */
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    width: 100vw;
+}
+
+section.two-column3 div.left {
+    width: 45%;
+    margin-right: 150px;
+}
+
+section.two-column3 div.left p {
+    text-align: left;
+}
+
+section.two-column3 div.right {
+    border-radius: 25px 0px 0px 25px;
+    position: relative;
+    min-height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    left: -50px;
+    background: url(assets/ipvanish-lifestyle-18-1.jpg);
+    background-size: cover;
+}
+
+section.two-column3 div.right span {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: #70BB44;
+    position: absolute;
+    left: 50px;
+    z-index: -1;
+    top: 20px;
+}
+
+section.two-column3 div.left h2 {
+    font-size: 32px;
+    color: #333333;
+}
+
+section.two-column3 div.left p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    margin: 20px 0px;
+}
+
+section.two-column3 div.left button {
+    background-color: #ff8800;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 0.6rem 1.5rem;
+}
+
+
+section.two-column4 {
+    margin: 100px 0px;
+    padding: 0px;
+    /* padding: 0px 150px 0px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    width: 100vw;
+}
+
+section.two-column4 div.right {
+    width: 45%;
+    margin-left: 150px;
+}
+
+section.two-column4 div.right p {
+    text-align: left;
+}
+
+section.two-column4 div.left {
+    border-radius: 0px 25px 25px 0px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    background: url(assets/ipvanish-lifestyle-19-1.jpg);
+    background-size: cover;
+}
+
+section.two-column4 div.left span {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: #70BB44;
+    position: absolute;
+    left: -50px;
+    z-index: -1;
+    top: 5px;
+}
+
+section.two-column4 div.right h2 {
+    font-size: 32px;
+    color: #333333;
+}
+
+section.two-column4 div.right p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    margin: 20px 0px;
+}
+
+section.two-column4 div.right button {
+    background-color: #ff8800;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 0.6rem 1.5rem;
+}
+
+section.recommended {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+
+section.recommended h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+section.recommended p {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.slider-container {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+    margin-bottom: 50px;
+    gap: 5px;
+}
+
+.slide {
+    width: calc(100% / 3);
+    height: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(2, 2, 2);
+}
+
+.dots-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #333;
+}
+
+div.slide div.container {
+    background-color: #EFEFEF;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+
+div.container p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #333;
+}
+
+div.container img {
+    width: 150px;
+    height: auto;
+}
+
+section.include {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 350px;
+}
+
+section.include h2 {
+    font-size: 32px;
+    color: #333333;
+    margin: 20px 0px;
+}
+
+section.include div.two {
+    display: flex;
+    width: 100%;
+    color: #333333;
+    font-size: 18px;
+}
+
+section.include div.left,
+div.right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section.include i {
+    color: #70BB43;
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+section.include i span {
+    color: #333333;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+section.started {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    padding: 0px 150px;
+    margin: 50px 0px;
+}
+
+div.black {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #70BB44;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+div.black div.left {
+    width: 100%;
+    color: white;
+}
+
+div.black div.left h2 {
+    font-size: 32px;
+}
+
+div.black div.left p {
+    text-align: left;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+div.black div.right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+div.black button {
+    background-color: #ff8800;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 0.6rem 1.5rem;
+}
+
+footer {
+    width: 100vw;
+    font-size: 14px;
+    color: #bbb;
+    background-color: #000000;
+    padding: 30px 150px;
+}
+
+footer div.menu {
+    margin: 10px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #bbb;
+    margin-right: 10px;
+}
+
+footer p {
+    text-align: left;
+}
+
+div.trust {
+    display: flex;
+}
+
+div.trust div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.trust h5 {
+    font-size: 16px;
+}
+
+div.trust div.star img {
+    width: 120px;
+    height: auto;
+    margin: 0px 10px;
+}
+
+div.trust div.trustlogo img {
+    width: 120px;
+    height: auto;
+    margin: 0px 10px;
+
+}
+
+@media screen and (max-width:900px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    div.featurerow img{
+        width: 35%;
+    }
+    div.featurerow div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    header div {
+        padding: 10px 20px;
+    }
+
+    section.hero {
+        padding: 50px 20px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    section.hero div.right {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    section.hero div.right .price-card {
+        height: auto;
+        width: 100%;
+        gap: 20px;
+    }
+
+    div.trust {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    section.two-column div.right {
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.two-column div.right img {
+        width: 250px;
+        height: 250px;
+    }
+
+    div.trust div.reviewon,
+    div.name {
+        display: none;
+    }
+
+    div.trust div.trustlogo img {
+        display: none;
+    }
+
+    section.partners {
+        padding: 10px 20px;
+        margin: 50px 0px;
+    }
+
+    section.partners div.partner-images {
+        display: inline;
+    }
+
+    section.vpn {
+        padding: 10px 20px;
+    }
+
+    section.vpn div {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    section.vpn div h2 {
+        text-align: center;
+    }
+
+    section.two-column {
+        padding: 10px 0px;
+        flex-direction: column-reverse;
+    }
+
+    section.two-column div.right {
+        width: 100%;
+        border-radius: 0px;
+        min-height: 200px;
+    }
+
+    section.two-column div.left {
+        width: 100%;
+        padding: 10px 20px;
+        margin-right: 0;
+    }
+
+    section.two-column2 {
+        padding: 10px 0px;
+        flex-direction: column;
+    }
+
+
+
+    section.two-column2 div.left {
+        min-height: 250px;
+        width: 250px;
+        padding: 10px 20px;
+        margin-right: 0;
+        left: 20px;
+    }
+
+    section.two-column2 div.left span {
+        height: 250px;
+        width: 250px;
+    }
+
+    div.reviews {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.customer {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .middle {
+        margin: 20px 0px;
+    }
+
+    div.review {
+        box-shadow: 1px 1px 8px #11304b29;
+        border-radius: 12px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    section.two-column2 div.right {
+        width: 100%;
+        margin-left: 0px;
+        padding: 10px 20px;
+    }
+
+    section.features div.featurerow {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.two-column3 {
+        padding: 10px 0px;
+        flex-direction: column-reverse;
+    }
+
+    section.two-column3 div.right {
+        width: 250px;
+        border-radius: 50%;
+        min-height: 250px;
+        left: -20px;
+    }
+
+    section.two-column3 div.right span {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: #70BB44;
+        position: absolute;
+        left: 50px;
+        z-index: -1;
+        top: 5px;
+    }
+
+    section.two-column3 div.left {
+        width: 100%;
+        padding: 10px 20px;
+        margin-right: 0;
+    }
+
+    section.two-column4 {
+        padding: 10px 0px;
+        flex-direction: column;
+    }
+
+    section.two-column4 div.left {
+        width: 250px;
+        height: 250px;
+        padding: 10px 20px;
+        margin-right: 0;
+        border-radius: 50%;
+        left: 20px;
+    }
+
+    section.two-column4 div.left span {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: #70BB44;
+        position: absolute;
+        left: -50px;
+        z-index: -1;
+        top: 5px;
+    }
+
+    section.two-column4 div.right {
+        width: 100%;
+        margin-left: 0px;
+        padding: 10px 20px;
+    }
+
+    div.star {
+        margin: 20px 0px;
+    }
+
+    section.features {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    section.include {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 20px;
+    }
+
+    section.include div.two {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        color: #333333;
+        font-size: 18px;
+        flex-direction: column;
+    }
+
+    section.started {
+        display: flex;
+        width: 100vw;
+        height: auto;
+        padding: 20px;
+        margin: 50px 0px;
+    }
+
+    div.black {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        border: none;
+        border-radius: 25px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    div.black div.right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        font-size: 14px;
+        color: #bbb;
+        background-color: #000000;
+        padding: 30px 20px;
+    }
+
+    .slider-wrapper {
+        flex-wrap: nowrap;
+    }
+
+    .slide {
+        flex: 0 0 100%;
+    }
+
+    /* .dots-container {
+        display: none;
+    } */
+
+    .slider-wrapper {
+        gap: 0px;
+    }
+
+    section.recommended p {
+        text-align: center;
+    }
+
+
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 182.2 137" style="enable-background:new 0 0 182.2 137;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CDD4D6;}
+	.st1{fill:#6FBB44;}
+	.st2{fill:#CCCBCA;}
+	.st3{fill:#30363D;}
+</style>
+<g>
+	<g>
+		<g>
+			<path class="st0" d="M120.7,0.7H54.2c-1,0-2,0.4-2.8,1.1c-0.8,0.8-1.1,1.8-1.1,2.8V63h12.1v12.1H50.3v24.2h12.1v12.1h24.2V99.3
+				H74.5V87.2h12.1v12.1h12.1v12.1h24.2V87.2h-12.1V75.1h12.1V63H135V15L120.7,0.7z M98.7,75.1H86.6V63h12.1V75.1z"/>
+		</g>
+		<polygon class="st1" points="122.9,87.2 135,87.2 135,75.1 122.9,75.1 		"/>
+	</g>
+	<path class="st2" d="M135,15h-10.4c-1,0-2-0.4-2.8-1.1c-0.8-0.8-1.1-1.8-1.1-2.8V0.7L135,15z"/>
+	<g>
+		<rect x="64.6" y="32.6" class="st3" width="56" height="4.4"/>
+		<rect x="64.6" y="41.3" class="st3" width="56" height="4.4"/>
+		<rect x="64.6" y="50.1" class="st3" width="56" height="4.4"/>
+		<rect x="64.6" y="15" class="st3" width="28" height="4.4"/>
+		<rect x="64.6" y="23.8" class="st3" width="56" height="4.4"/>
+	</g>
+	<g>
+		<path class="st1" d="M62.4,135.6h-8.2c-1,0-2-0.4-2.8-1.1c-0.8-0.8-1.1-1.8-1.1-2.8v-8.2h12.1V135.6z"/>
+		<rect x="86.6" y="75.1" class="st1" width="12.1" height="12.1"/>
+		<rect x="122.9" y="99.3" class="st1" width="12.1" height="12.1"/>
+		<rect x="110.8" y="111.4" class="st1" width="12.1" height="12.1"/>
+		<rect x="74.5" y="111.4" class="st1" width="12.1" height="12.1"/>
+		<rect x="50.3" y="87.2" class="st1" width="12.1" height="12.1"/>
+		<rect x="86.6" y="123.5" class="st1" width="12.1" height="12.1"/>
+		<path class="st1" d="M135,131.7c0,1-0.4,2-1.1,2.8c-0.8,0.8-1.8,1.1-2.8,1.1h-8.2v-12.1H135V131.7z"/>
+	</g>
+</g>
+</svg>
